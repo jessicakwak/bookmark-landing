@@ -1,0 +1,303 @@
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+button{
+  border:none;
+  border-radius:5px;
+  height:45px;
+  font-size:0.8rem;
+}
+
+p{
+  color:hsl(229, 8%, 60%);
+  margin:4% 0 4% 0;
+}
+
+h3{
+  font-size:1.2rem;
+  margin-top:10%;
+}
+
+.navbar{
+  padding:0.5% 10% 0.5% 9%;
+  letter-spacing: 2px;
+}
+
+.nav-item a{
+  color:hsl(229, 31%, 21%);
+  text-transform:uppercase;
+  font-size:0.8rem;
+}
+
+.red-btn{
+  background-color: hsl(0, 94%, 66%);
+  color:white;
+  text-transform:uppercase;
+  width:120px;
+  letter-spacing: 2px;
+  height:35px;
+}
+
+.red-btn:hover{
+  background-color:white;
+  color:hsl(0, 94%, 66%);
+  border:solid 2px hsl(0, 94%, 66%);
+}
+
+.add-install{
+  width:80%;
+  margin-top:4%;
+}
+
+.left-1{
+  padding:7% 6%;
+}
+
+.blue-btn{
+  background-color:hsl(231, 69%, 60%);
+  color:white;
+}
+
+.col-sm-12 .get-it-btn:nth-of-type(2){
+color:hsl(229, 8%, 60%);
+}
+.col-sm-12 .get-it-btn:nth-of-type(2):hover{
+color:hsl(229, 31%, 21%);
+border:solid 2px hsl(229, 31%, 21%);
+}
+
+.get-it-btn{
+  width:150px;
+  box-shadow: 3px 3px 5px hsl(229, 8%, 80%);
+}
+
+.hero-img{
+  margin-left:-70px;
+}
+
+.blue-bg-right{
+  width:800px;
+  height:380px;
+  background-color:hsl(231, 69%, 60%);
+  margin-top: -340px;
+  margin-left: 100px;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  z-index:-1;
+}
+
+.blue-bg-left{
+  width:800px;
+  height:380px;
+  background-color:hsl(231, 69%, 60%);
+  margin-top: -300px;
+  margin-left: -150px;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  z-index:-1;
+}
+
+.textbox{
+  padding:5% 15% 3% 15%;
+}
+
+.feature-btn{
+  width:100%;
+  border-bottom: 2px solid hsl(229, 8%, 80%);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 50px;
+}
+
+.feature-btn:focus{
+  outline:none;
+}
+
+.feature-btn:hover{
+  color:hsl(0, 94%, 66%);
+}
+
+
+.active-tab{
+  border-bottom: 2px solid hsl(0, 94%, 66%);
+}
+
+.extension{
+  border:none;
+  box-shadow: 2px 2px 5px hsl(229, 8%, 90%);
+  border-radius:10px;
+  padding:6% 2%;
+}
+
+.extension:nth-of-type(2){
+  margin-top:5%;
+}
+
+.dot-bg{
+  width:100%;
+}
+
+.cards div:nth-of-type(2){
+  margin-top:5%;
+}
+.cards div:nth-of-type(3){
+  margin-top:10%;
+}
+
+.q-section{
+  padding:0 10rem;
+  margin-bottom:10%;
+}
+
+.questions{
+  border-top:solid 2px hsl(229, 8%, 90%);
+}
+
+
+.q-bottom{
+  border-bottom:solid 2px hsl(229, 8%, 90%);
+  margin-bottom:2rem;
+}
+
+.q-txt{
+  color:hsl(229, 31%, 21%);
+  margin:2% 0;
+}
+
+.q-txt:hover{
+  color:hsl(0, 94%, 66%);
+}
+
+.q-txt-active{
+  color:hsl(0, 94%, 66%);
+  margin:2% 0;
+}
+
+.nav-link:hover{
+  color:hsl(0, 94%, 66%);
+}
+
+.blue-btn:hover{
+  background-color:white;
+  color:hsl(231, 69%, 60%);
+  border:solid 2px hsl(231, 69%, 60%);
+}
+.blue-btn:focus{
+  outline:none;
+}
+
+#a-1{
+  display:none;
+}
+
+#a-2{
+  display:none;
+}
+
+#a-3{
+  display:none;
+}
+
+#a-4{
+  display:none;
+}
+
+.cta{
+  text-align:center;
+  background-color:hsl(231, 69%, 60%);
+  color:white;
+  padding:5% 23%;
+}
+
+.cta p{
+  color:white;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  font-size:0.8rem;
+}
+
+.form-inline .form-control {
+  width:300px;
+  height:50px;
+}
+.cta-email{
+width:100%;
+padding:2%;
+height:50px;
+}
+
+
+.err{
+  background-color:hsl(231, 69%, 60%);
+  height:70px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align:left;
+  margin-bottom:5%;
+}
+
+.err p{
+  font-size:0.7rem;
+  text-transform:none;
+  letter-spacing: 0;
+  margin-top:-23px;
+  margin-left:2%;
+  display:none;
+}
+
+.red-highlight{
+  border:2px solid hsl(0, 94%, 66%);
+}
+
+.err-icon{
+  position:absoulte;
+  margin-top:-72px;
+  margin-left:85%;
+  display:none;
+}
+
+
+.cta-btn{
+  width:150px;
+  height:50px;
+}
+
+.footer-nav{
+  background-color:hsl(229, 31%, 21%);
+  padding:3% 0;
+}
+
+.footer-nav a{
+  letter-spacing: 2px;
+  color:white;
+  text-transform:uppercase;
+}
+
+.footer-nav-bar{
+  justify-content: left;
+}
+
+.footer-brand{
+  text-align:center;
+}
+
+@media only screen and (max-width:767px){
+  .left-1{
+    text-align:center;
+  }
+  .footer-nav-bar{
+    justify-content: center;
+  }
+
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding:0;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
