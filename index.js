@@ -37,7 +37,7 @@ $(".cta-btn").on("click", function(){
 $(".cta-email").on("blur", function(){
   if($(".cta-email").val() === ""){
     $(".err-icon").fadeOut();
-    $(".errg p").hide();
+    $(".err p").hide();
     $(".err").css("background-color","hsl(231, 69%, 60%)");
     $(".cta-email").removeClass("red-highlight");
   }
